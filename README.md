@@ -1,6 +1,13 @@
 # Tail
 Tail is a Windows console program that displays new rows as they are added to a file in real-time. Similar to the unix tail command
 
+## Installation
+Copy Tail/Tail/bin/Release/Tail.exe into c:\windows\system32 or another directory in your path.
+
+## Requirements
+Requires .NET Framework 4
+Should work out-of-box with Windows 7 or higher 
+
 ## Usage
 
 Help text:
