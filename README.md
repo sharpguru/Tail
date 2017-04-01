@@ -13,7 +13,7 @@ Should work out-of-box with Windows 7 or higher
 Help text:
 ~~~
 USAGE: Tail <filename> <last n lines (optional)>
-EXAMPLE: To display last 500 lines in somefile =>
+EXAMPLE: To display last 500 lines in somefile.txt =>
          Tail somefile.txt 500
 <cntrl-C> to exit
 ~~~
@@ -23,12 +23,12 @@ Display usage help text:
 Tail
 ~~~
 
-List entire contents of file then display lines as the file is updated:
+List entire contents of somefile.txt then display lines as the file is updated:
 ~~~
 Tail somefile.txt
 ~~~
 
 List last 50 lines of somefile.txt then display lines as the file is updated:
 ~~~
-Tail somefile.txt 500
+Tail somefile.txt 50
 ~~~
